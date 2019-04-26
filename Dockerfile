@@ -2,7 +2,7 @@ FROM openjdk:8-jre-alpine
 
 MAINTAINER Satoshi KAMEI "skame@nttv6.jp"
 
-RUN apk add bash procps curl jq
+RUN apk add bash procps coreutils curl jq
 
 #BEEEEEEEELINE
 RUN mkdir /opt/beeline \
